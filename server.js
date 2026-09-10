@@ -111,4 +111,6 @@ io.on("connection",socket=>{
   socket.emit("tick",{round:currentRound(),seconds:secondsLeft(),online:io.engine.clientsCount,previousResult:resultFor(currentRound()-1)});
 });
 
-server.listen(PORT,()=>console.log(`Colour Prediction Arena running on http://localhost:${PORT}`));
+server.listen(PORT, "0.0.0.0", () =>
+  console.log(`Colour Prediction Arena running on port ${PORT}`)
+);
