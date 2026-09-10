@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "sik",
+      "email": "sikanderchamari@gmail.com",
+      "password_hash": "$2a$12$i2AFTgzwHNQo0Dk7IqWIbecwDIT6lu1s0GLXekDm/CuqtALc8gGw6",
+      "balance": 9800,
+      "created_at": 1788891624195
+    },
+    {
+      "id": 2,
+      "username": "test",
+      "email": "rudraksh1437@gmail.com",
+      "password_hash": "$2a$12$SqoRIcGbtwieZ0FZ0OxoT..U0pywbaUY5.DMM7aPPaaU9p96wDGuO",
+      "balance": 10000,
+      "created_at": 1788891806934
+    }
+  ],
+  "predictions": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "round_id": 59629721,
+      "color": "GREEN",
+      "stake": 100,
+      "result": "GREEN",
+      "payout": 200,
+      "created_at": 1788891636151
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "round_id": 59631700,
+      "color": "VIOLET",
+      "stake": 100,
+      "result": "GREEN",
+      "payout": 0,
+      "created_at": 1788951010834
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "round_id": 59631704,
+      "color": "RED",
+      "stake": 100,
+      "result": "GREEN",
+      "payout": 0,
+      "created_at": 1788951130080
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "round_id": 59631705,
+      "color": "RED",
+      "stake": 100,
+      "result": "RED",
+      "payout": 200,
+      "created_at": 1788951154499
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "round_id": 59631707,
+      "color": "VIOLET",
+      "stake": 100,
+      "result": "GREEN",
+      "payout": 0,
+      "created_at": 1788951212994
+    },
+    {
+      "id": 6,
+      "user_id": 1,
+      "round_id": 59632350,
+      "color": "VIOLET",
+      "stake": 100,
+      "result": "RED",
+      "payout": 0,
+      "created_at": 1788970506018
+    }
+  ],
+  "nextUserId": 3,
+  "nextPredictionId": 7
+}
